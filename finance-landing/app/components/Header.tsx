@@ -8,8 +8,11 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
+         <Link href="/">
+
           <FaHatWizard size={32} className="text-white" />
           <span className="ml-2 text-white font-bold text-xl">Conto de Fadas</span>
+          </Link>
         </div>
 
         {/* Navigation Links */}
