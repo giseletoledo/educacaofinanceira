@@ -9,7 +9,7 @@ export default function Footer() {
             <a href="/stories" className="hover:underline">Contos</a>
             <a href="/team" className="hover:underline">Equipe</a>
           </div>
-          <p>&copy; {new Date().getFullYear()} Conto de Fadas. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Contas de Fada. Todos os direitos reservados.</p>
         </div>
       </footer>
     );
